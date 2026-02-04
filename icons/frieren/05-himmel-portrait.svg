@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Himmel Portrait - Hero -->
+  <defs>
+    <linearGradient id="himmelHairGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4169E1"/>
+      <stop offset="100%" style="stop-color:#1E3A8A"/>
+    </linearGradient>
+  </defs>
+  <!-- Hair -->
+  <ellipse cx="32" cy="24" rx="15" ry="16" fill="url(#himmelHairGrad)"/>
+  <path d="M17 24 Q15 35 20 45" stroke="#1E3A8A" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M47 24 Q49 35 44 45" stroke="#1E3A8A" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- Face -->
+  <ellipse cx="32" cy="32" rx="11" ry="13" fill="#FFE4C4"/>
+  <!-- Eyes (kind) -->
+  <ellipse cx="27" cy="32" rx="3" ry="2" fill="#4169E1"/>
+  <ellipse cx="37" cy="32" rx="3" ry="2" fill="#4169E1"/>
+  <circle cx="26" cy="31" r="1" fill="#FFFFFF"/>
+  <circle cx="36" cy="31" r="1" fill="#FFFFFF"/>
+  <!-- Smile -->
+  <path d="M27 39 Q32 43 37 39" stroke="#CC9999" stroke-width="1.5" fill="none"/>
+  <!-- Crown hint -->
+  <path d="M22 12 L27 18 L32 10 L37 18 L42 12" stroke="#FFD700" stroke-width="2" fill="none"/>
+</svg>

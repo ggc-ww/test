@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Stark Portrait - Warrior -->
+  <defs>
+    <linearGradient id="starkHairGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B0000"/>
+      <stop offset="100%" style="stop-color:#5C0000"/>
+    </linearGradient>
+  </defs>
+  <!-- Spiky Hair -->
+  <path d="M18 30 L22 10 L28 28 L32 8 L36 28 L42 10 L46 30" fill="url(#starkHairGrad)"/>
+  <ellipse cx="32" cy="28" rx="14" ry="12" fill="url(#starkHairGrad)"/>
+  <!-- Face -->
+  <ellipse cx="32" cy="34" rx="12" ry="14" fill="#FFE4C4"/>
+  <!-- Eyes -->
+  <ellipse cx="27" cy="33" rx="3" ry="2" fill="#8B4513"/>
+  <ellipse cx="37" cy="33" rx="3" ry="2" fill="#8B4513"/>
+  <circle cx="26" cy="32" r="1" fill="#FFFFFF"/>
+  <circle cx="36" cy="32" r="1" fill="#FFFFFF"/>
+  <!-- Eyebrows (determined) -->
+  <path d="M23 29 L30 31" stroke="#5C0000" stroke-width="2"/>
+  <path d="M34 31 L41 29" stroke="#5C0000" stroke-width="2"/>
+  <!-- Mouth -->
+  <path d="M28 41 L36 41" stroke="#CC9999" stroke-width="1.5"/>
+  <!-- Neck/Armor hint -->
+  <rect x="26" y="48" width="12" height="8" fill="#4A4A4A"/>
+</svg>

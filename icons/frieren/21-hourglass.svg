@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Hourglass - Time Theme -->
+  <defs>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700"/>
+      <stop offset="100%" style="stop-color:#B8860B"/>
+    </linearGradient>
+  </defs>
+  <!-- Top frame -->
+  <rect x="16" y="6" width="32" height="4" rx="1" fill="url(#glassGrad)"/>
+  <!-- Bottom frame -->
+  <rect x="16" y="54" width="32" height="4" rx="1" fill="url(#glassGrad)"/>
+  <!-- Glass bulbs -->
+  <path d="M20 10 L20 24 Q20 32 32 32 Q44 32 44 24 L44 10" fill="none" stroke="#B8860B" stroke-width="2"/>
+  <path d="M20 54 L20 40 Q20 32 32 32 Q44 32 44 40 L44 54" fill="none" stroke="#B8860B" stroke-width="2"/>
+  <!-- Sand top -->
+  <path d="M22 12 L22 22 Q22 28 32 30 Q42 28 42 22 L42 12 Z" fill="#F4A460" opacity="0.3"/>
+  <!-- Sand bottom -->
+  <path d="M24 52 L24 44 Q24 38 32 36 Q40 38 40 44 L40 52 Z" fill="#F4A460"/>
+  <!-- Falling sand -->
+  <line x1="32" y1="32" x2="32" y2="38" stroke="#F4A460" stroke-width="1.5"/>
+  <!-- Decorative stands -->
+  <line x1="18" y1="10" x2="18" y2="54" stroke="url(#glassGrad)" stroke-width="2"/>
+  <line x1="46" y1="10" x2="46" y2="54" stroke="url(#glassGrad)" stroke-width="2"/>
+</svg>

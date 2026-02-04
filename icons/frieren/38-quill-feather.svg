@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Feather/Quill -->
+  <defs>
+    <linearGradient id="featherGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF"/>
+      <stop offset="50%" style="stop-color:#E0E0E0"/>
+      <stop offset="100%" style="stop-color:#C0C0C0"/>
+    </linearGradient>
+  </defs>
+  <!-- Feather shaft -->
+  <path d="M52 8 Q40 24 20 56" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <!-- Feather barbs (left side) -->
+  <path d="M50 10 Q42 14 46 20" fill="url(#featherGrad)" stroke="#D3D3D3" stroke-width="0.5"/>
+  <path d="M46 16 Q36 22 42 30" fill="url(#featherGrad)" stroke="#D3D3D3" stroke-width="0.5"/>
+  <path d="M42 24 Q30 32 36 42" fill="url(#featherGrad)" stroke="#D3D3D3" stroke-width="0.5"/>
+  <path d="M36 34 Q24 42 28 52" fill="url(#featherGrad)" stroke="#D3D3D3" stroke-width="0.5"/>
+  <!-- Feather barbs (right side) -->
+  <path d="M54 12 Q56 18 50 18" fill="url(#featherGrad)" stroke="#D3D3D3" stroke-width="0.5"/>
+  <path d="M50 20 Q54 28 46 28" fill="url(#featherGrad)" stroke="#D3D3D3" stroke-width="0.5"/>
+  <path d="M46 30 Q50 38 42 40" fill="url(#featherGrad)" stroke="#D3D3D3" stroke-width="0.5"/>
+  <path d="M40 40 Q44 48 36 50" fill="url(#featherGrad)" stroke="#D3D3D3" stroke-width="0.5"/>
+  <!-- Quill tip -->
+  <path d="M20 56 L16 62 L22 58 Z" fill="#8B4513"/>
+  <!-- Ink drop -->
+  <circle cx="16" cy="60" r="2" fill="#1a1a1a"/>
+</svg>

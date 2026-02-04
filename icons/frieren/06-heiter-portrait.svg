@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Heiter Portrait - Priest -->
+  <defs>
+    <linearGradient id="heiterHairGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4AF37"/>
+      <stop offset="100%" style="stop-color:#B8860B"/>
+    </linearGradient>
+  </defs>
+  <!-- Hair -->
+  <ellipse cx="32" cy="24" rx="14" ry="14" fill="url(#heiterHairGrad)"/>
+  <!-- Face -->
+  <ellipse cx="32" cy="34" rx="12" ry="14" fill="#FFE4C4"/>
+  <!-- Closed happy eyes -->
+  <path d="M24 32 Q27 35 30 32" stroke="#333" stroke-width="1.5" fill="none"/>
+  <path d="M34 32 Q37 35 40 32" stroke="#333" stroke-width="1.5" fill="none"/>
+  <!-- Big smile -->
+  <path d="M25 40 Q32 47 39 40" stroke="#CC9999" stroke-width="1.5" fill="none"/>
+  <!-- Priest collar -->
+  <rect x="26" y="48" width="12" height="8" fill="#FFFFFF"/>
+  <rect x="30" y="48" width="4" height="8" fill="#FFD700"/>
+</svg>

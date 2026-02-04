@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Fern Portrait - Human Mage -->
+  <defs>
+    <linearGradient id="fernHairGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4B0082"/>
+      <stop offset="100%" style="stop-color:#2E0854"/>
+    </linearGradient>
+  </defs>
+  <!-- Hair -->
+  <ellipse cx="32" cy="26" rx="16" ry="18" fill="url(#fernHairGrad)"/>
+  <path d="M16 26 Q14 42 18 55" stroke="#2E0854" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M48 26 Q50 42 46 55" stroke="#2E0854" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- Bangs -->
+  <path d="M20 22 Q32 28 44 22" fill="#4B0082"/>
+  <!-- Face -->
+  <ellipse cx="32" cy="32" rx="11" ry="13" fill="#FFE4C4"/>
+  <!-- Eyes -->
+  <ellipse cx="27" cy="32" rx="3" ry="2.5" fill="#800080"/>
+  <ellipse cx="37" cy="32" rx="3" ry="2.5" fill="#800080"/>
+  <circle cx="26" cy="31" r="1" fill="#FFFFFF"/>
+  <circle cx="36" cy="31" r="1" fill="#FFFFFF"/>
+  <!-- Eyebrows -->
+  <path d="M24 28 L30 29" stroke="#2E0854" stroke-width="1.5"/>
+  <path d="M34 29 L40 28" stroke="#2E0854" stroke-width="1.5"/>
+  <!-- Mouth -->
+  <path d="M29 39 Q32 41 35 39" stroke="#CC9999" stroke-width="1" fill="none"/>
+</svg>
