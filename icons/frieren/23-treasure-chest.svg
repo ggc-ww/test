@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Treasure Chest -->
+  <defs>
+    <linearGradient id="chestGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513"/>
+      <stop offset="100%" style="stop-color:#5C3317"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700"/>
+      <stop offset="100%" style="stop-color:#DAA520"/>
+    </linearGradient>
+  </defs>
+  <!-- Chest base -->
+  <rect x="8" y="32" width="48" height="24" rx="2" fill="url(#chestGrad)"/>
+  <!-- Chest lid -->
+  <path d="M8 32 Q8 16 32 16 Q56 16 56 32 L56 32 L8 32 Z" fill="url(#chestGrad)"/>
+  <!-- Metal bands -->
+  <rect x="6" y="30" width="52" height="4" fill="url(#goldGrad)"/>
+  <rect x="28" y="16" width="8" height="40" fill="url(#goldGrad)"/>
+  <!-- Lock -->
+  <circle cx="32" cy="40" r="5" fill="url(#goldGrad)"/>
+  <rect x="30" y="42" width="4" height="6" fill="#5C3317"/>
+  <!-- Keyhole -->
+  <circle cx="32" cy="39" r="1.5" fill="#2F2F2F"/>
+  <rect x="31" y="39" width="2" height="3" fill="#2F2F2F"/>
+  <!-- Corner rivets -->
+  <circle cx="12" cy="36" r="2" fill="url(#goldGrad)"/>
+  <circle cx="52" cy="36" r="2" fill="url(#goldGrad)"/>
+  <circle cx="12" cy="52" r="2" fill="url(#goldGrad)"/>
+  <circle cx="52" cy="52" r="2" fill="url(#goldGrad)"/>
+</svg>

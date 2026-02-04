@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Mimic Monster -->
+  <defs>
+    <linearGradient id="mimicGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513"/>
+      <stop offset="100%" style="stop-color:#5C3317"/>
+    </linearGradient>
+  </defs>
+  <!-- Chest base (open) -->
+  <rect x="8" y="36" width="48" height="20" rx="2" fill="url(#mimicGrad)"/>
+  <!-- Open lid -->
+  <path d="M8 36 L8 20 Q32 8 56 20 L56 36 Z" fill="url(#mimicGrad)"/>
+  <!-- Metal bands -->
+  <rect x="6" y="34" width="52" height="4" fill="#DAA520"/>
+  <!-- Sharp teeth top -->
+  <path d="M12 36 L16 28 L20 36 L24 28 L28 36 L32 26 L36 36 L40 28 L44 36 L48 28 L52 36" fill="#FFFFFF" stroke="#CCC" stroke-width="0.5"/>
+  <!-- Sharp teeth bottom -->
+  <path d="M12 36 L16 44 L20 36 L24 44 L28 36 L32 46 L36 36 L40 44 L44 36 L48 44 L52 36" fill="#FFFFFF" stroke="#CCC" stroke-width="0.5"/>
+  <!-- Tongue -->
+  <path d="M28 40 Q32 52 36 40" fill="#FF6B6B"/>
+  <!-- Evil eyes -->
+  <ellipse cx="24" cy="24" rx="5" ry="4" fill="#FFFF00"/>
+  <circle cx="24" cy="24" r="2" fill="#FF0000"/>
+  <ellipse cx="40" cy="24" rx="5" ry="4" fill="#FFFF00"/>
+  <circle cx="40" cy="24" r="2" fill="#FF0000"/>
+  <!-- Drool -->
+  <path d="M20 44 Q18 50 20 54" stroke="#87CEEB" stroke-width="1" fill="none"/>
+</svg>

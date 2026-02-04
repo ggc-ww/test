@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Mage Hat - Frieren's Hat -->
+  <defs>
+    <linearGradient id="hatGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2F4F4F"/>
+      <stop offset="100%" style="stop-color:#1C3030"/>
+    </linearGradient>
+  </defs>
+  <!-- Hat brim -->
+  <ellipse cx="32" cy="52" rx="26" ry="8" fill="url(#hatGrad)"/>
+  <!-- Hat cone -->
+  <path d="M12 52 Q20 35 24 20 Q28 8 32 4 Q36 8 40 20 Q44 35 52 52 Z" fill="url(#hatGrad)"/>
+  <!-- Hat band -->
+  <path d="M14 50 Q32 44 50 50" stroke="#8B4513" stroke-width="3" fill="none"/>
+  <!-- Buckle -->
+  <rect x="28" y="46" width="8" height="6" fill="#FFD700" rx="1"/>
+  <rect x="30" y="47" width="4" height="4" fill="url(#hatGrad)"/>
+  <!-- Hat crease/fold -->
+  <path d="M24 20 Q32 25 40 20" stroke="#1C3030" stroke-width="1" fill="none"/>
+  <!-- Tip -->
+  <circle cx="32" cy="6" r="2" fill="url(#hatGrad)"/>
+</svg>

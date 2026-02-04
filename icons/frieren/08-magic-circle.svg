@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Magic Circle -->
+  <defs>
+    <linearGradient id="magicGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00FFFF"/>
+      <stop offset="50%" style="stop-color:#0080FF"/>
+      <stop offset="100%" style="stop-color:#8000FF"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer circle -->
+  <circle cx="32" cy="32" r="28" fill="none" stroke="url(#magicGrad)" stroke-width="2"/>
+  <!-- Inner circle -->
+  <circle cx="32" cy="32" r="20" fill="none" stroke="url(#magicGrad)" stroke-width="1.5"/>
+  <!-- Pentagram -->
+  <polygon points="32,6 40,38 12,18 52,18 24,38" fill="none" stroke="url(#magicGrad)" stroke-width="1.5"/>
+  <!-- Runes around -->
+  <circle cx="32" cy="32" r="24" fill="none" stroke="url(#magicGrad)" stroke-width="1" stroke-dasharray="4 4"/>
+  <!-- Center glow -->
+  <circle cx="32" cy="32" r="6" fill="#00FFFF" opacity="0.5"/>
+  <circle cx="32" cy="32" r="3" fill="#FFFFFF" opacity="0.8"/>
+</svg>

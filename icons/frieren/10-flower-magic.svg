@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Flower Field Magic - Frieren's signature useless spell -->
+  <defs>
+    <linearGradient id="petalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB6C1"/>
+      <stop offset="100%" style="stop-color:#FF69B4"/>
+    </linearGradient>
+  </defs>
+  <!-- Flower 1 -->
+  <g transform="translate(16, 20)">
+    <ellipse cx="0" cy="-6" rx="4" ry="6" fill="url(#petalGrad)"/>
+    <ellipse cx="6" cy="0" rx="6" ry="4" fill="url(#petalGrad)"/>
+    <ellipse cx="0" cy="6" rx="4" ry="6" fill="url(#petalGrad)"/>
+    <ellipse cx="-6" cy="0" rx="6" ry="4" fill="url(#petalGrad)"/>
+    <circle cx="0" cy="0" r="3" fill="#FFD700"/>
+  </g>
+  <!-- Flower 2 -->
+  <g transform="translate(48, 24)">
+    <ellipse cx="0" cy="-5" rx="3" ry="5" fill="url(#petalGrad)"/>
+    <ellipse cx="5" cy="0" rx="5" ry="3" fill="url(#petalGrad)"/>
+    <ellipse cx="0" cy="5" rx="3" ry="5" fill="url(#petalGrad)"/>
+    <ellipse cx="-5" cy="0" rx="5" ry="3" fill="url(#petalGrad)"/>
+    <circle cx="0" cy="0" r="2.5" fill="#FFD700"/>
+  </g>
+  <!-- Flower 3 -->
+  <g transform="translate(32, 44)">
+    <ellipse cx="0" cy="-5" rx="3.5" ry="5" fill="url(#petalGrad)"/>
+    <ellipse cx="5" cy="0" rx="5" ry="3.5" fill="url(#petalGrad)"/>
+    <ellipse cx="0" cy="5" rx="3.5" ry="5" fill="url(#petalGrad)"/>
+    <ellipse cx="-5" cy="0" rx="5" ry="3.5" fill="url(#petalGrad)"/>
+    <circle cx="0" cy="0" r="2.5" fill="#FFD700"/>
+  </g>
+  <!-- Magic sparkles -->
+  <circle cx="10" cy="40" r="1" fill="#FFFFFF"/>
+  <circle cx="54" cy="45" r="1" fill="#FFFFFF"/>
+  <circle cx="32" cy="10" r="1.5" fill="#FFFFFF"/>
+</svg>

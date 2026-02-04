@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Dungeon Entrance -->
+  <defs>
+    <linearGradient id="dungeonStoneGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#696969"/>
+      <stop offset="100%" style="stop-color:#4A4A4A"/>
+    </linearGradient>
+    <radialGradient id="darknessGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#1a1a1a"/>
+      <stop offset="100%" style="stop-color:#000000"/>
+    </radialGradient>
+  </defs>
+  <!-- Stone frame -->
+  <rect x="4" y="4" width="56" height="56" rx="2" fill="url(#dungeonStoneGrad)"/>
+  <!-- Archway -->
+  <path d="M14 56 L14 24 Q14 10 32 10 Q50 10 50 24 L50 56 Z" fill="url(#darknessGrad)"/>
+  <!-- Stone blocks -->
+  <rect x="4" y="4" width="10" height="8" fill="#5A5A5A" stroke="#3A3A3A" stroke-width="0.5"/>
+  <rect x="14" y="4" width="12" height="8" fill="#606060" stroke="#3A3A3A" stroke-width="0.5"/>
+  <rect x="38" y="4" width="12" height="8" fill="#606060" stroke="#3A3A3A" stroke-width="0.5"/>
+  <rect x="50" y="4" width="10" height="8" fill="#5A5A5A" stroke="#3A3A3A" stroke-width="0.5"/>
+  <!-- Torches -->
+  <rect x="8" y="26" width="3" height="12" fill="#8B4513"/>
+  <ellipse cx="9.5" cy="24" rx="3" ry="4" fill="#FF6600"/>
+  <ellipse cx="9.5" cy="22" rx="2" ry="3" fill="#FFD700"/>
+  <rect x="53" y="26" width="3" height="12" fill="#8B4513"/>
+  <ellipse cx="54.5" cy="24" rx="3" ry="4" fill="#FF6600"/>
+  <ellipse cx="54.5" cy="22" rx="2" ry="3" fill="#FFD700"/>
+  <!-- Skull decoration -->
+  <ellipse cx="32" cy="8" rx="4" ry="3" fill="#D3D3D3"/>
+  <circle cx="30" cy="8" r="1" fill="#1a1a1a"/>
+  <circle cx="34" cy="8" r="1" fill="#1a1a1a"/>
+</svg>
